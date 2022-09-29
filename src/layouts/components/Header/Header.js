@@ -135,7 +135,7 @@ function Header() {
                                 className={cx('user-avatar')}
                                 src="https://p9-sign-sg.tiktokcdn.com/aweme/100x100/tiktok-obj/1669930250749954.jpeg?x-expires=1652943600&x-signature=PDASbgydsEBHqZi%2BttdvAkWi%2Bv0%3D"
                                 alt="Nguyen Van A"
-                                // fallback="https://static.fullstack.edu.vn/static/media/fallback-avatar.155cdb2376c5d99ea151.jpg"
+                                fallback="https://static.fullstack.edu.vn/static/media/fallback-avatar.155cdb2376c5d99ea151.jpg"
                             />
                         ) : (
                             <button className={cx('more-btn')}>
